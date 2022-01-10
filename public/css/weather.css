@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(/public/rain-img.jpg);
+  background: lightgray;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ .first_page{
+    position: relative;
+    width: 1550px;
+    max-width: 100%;
+    height: calc(100% - 60px);
+    justify-content: center;
+  }
+
+  .second_page{
+    position: relative;
+    max-width: 100%;
+    width: 1500px;
+    height: 1500px;
+    margin-top: 150px;
+    justify-content: center;
+  }
+
+
+ .container{
+  margin-top: 10px;
+  position: relative;
+  width: 1500px;
+  max-width: 100%;
+  height: calc(100vh - 30px);
+  background: whitesmoke;
+  display: flex;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.container2{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1300px;
+  max-width: 100%;
+  height: calc(100vh - 70px);
+  background: whitesmoke;
+  border: 2px solid black;
+}
+
+.container .leftside {
+  position: relative;
+  flex: 15%;
+  background: white;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.container .rightside {
+  position: relative;
+  flex: 80%;
+  background: white;
+  max-width: 100%;
+  overflow-x: hidden;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  /*overflow-y: scroll;*/
+}
+
+.container2 .map{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 100px);
+  max-width: 100%;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 60px;     
+  border-right: 1px solid black;   
+  /*border-left: 2px solid black;*/
+}
+
+.header2 {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  /*border-left: 2px solid black;*/
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  /*border-bottom: 2px solid black;*/
+}
+
+.headerMap{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid black;
+}
+
+.header p{
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .header2 p{
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .headerMap p{
+    margin: auto;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100px;
+  }
+
+h2 .city{
+  text-align: center;
+  justify-content: center;
+}
+
+.leftside .weather{
+  position: relative;
+  width: 100%;
+  height: calc(100% - 60px);
+  max-width: 100%;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-top: 2px solid black;
+}
+
+.icon{
+  justify-content: center;
+  display: flex;
+}
+.description{
+  font-size: 20px;
+  text-align: center;
+}
+
+.metrics{
+  margin-top: 20px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-top: 15px;
+}
+
+
+.table-container{
+  display: flex;
+  position: relative;
+  height: calc(100% - 60px);
+  border-left: none;
+}
+
+
+table{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-grow: 1;
+  border: none;
+}
+
+
+td{
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  height: 20%;
+}
+
+.day{
+  position: relative;
+  height: 80%;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.precipitationMap{
+  height: 100%;
+  width: 100%;
+}
+
+.temperatureMap{
+  height: 100%;
+  width: 100%;
+}
+
+.pressureMap{
+  height: 100%;
+  width: 100%;
+}
+
+.windspeedMap{
+  height: 100%;
+  width: 100%;
+}
+
+.cloudsMap{
+  height: 100%;
+  width: 100%;
+}
